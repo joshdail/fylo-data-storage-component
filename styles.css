@@ -102,6 +102,27 @@ body {
   font-weight: 700;
 }
 
+/* Skip-link */
+
+.skip-link {
+  background-color: white;
+  color: var(--clr-background-dark);
+  font-weight: var(--fw-bold);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  border-radius: 0.25em;
+  translate: 0 -100%;
+}
+
+.skip-link:focus {
+  translate: 0 0;
+  border: none;
+  outline: none;
+}
+
 /* Styling for main sections */
 
 .container {
