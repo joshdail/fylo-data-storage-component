@@ -408,7 +408,8 @@ body {
   }
 }
 
-@media (height < 330px) and (orientation: landscape) {
+@media (height < 330px) and (orientation: landscape),
+  (height < 590px) and (orientation: portrait) {
   header {
     display: none;
   }

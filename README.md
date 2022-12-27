@@ -1,12 +1,12 @@
 # Frontend Mentor - Fylo data storage component solution
 
-This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -25,14 +25,16 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
+![Desktop](./images/screenshot-desktop.jpg)
+
+![Mobile](./images/screenshot-mobile.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/joshdail/fylo-data-storage-component](https://github.com/joshdail/fylo-data-storage-component)
+- Live Site URL: [https://joshdail.github.io/fylo-data-storage-component/](https://joshdail.github.io/fylo-data-storage-component/)
 
 ## My process
 
@@ -52,26 +54,25 @@ For example, the callout on desktop appears above the meter and on mobile portra
 
 So if the height shrinks, the callout moves below the gauge, and if the width and height both get too small, the callout will disappear so as not to block the two main components.
 
-	@media (height < 380px) {
-	  .callout::after {
-	    display: none;
-	  }
-	
-	  .callout {
-	    top: 65%;
-	    left: 50%;
-	    width: 40%;
-	    translate: -50%;
-	    align-items: center;
-	  }
-	}
+    @media (height < 380px) {
+      .callout::after {
+        display: none;
+      }
 
-	@media (width < 720px) and (height < 450px) {
-	  .callout {
-	    display: none;
-	  }
-	}
+      .callout {
+        top: 65%;
+        left: 50%;
+        width: 40%;
+        translate: -50%;
+        align-items: center;
+      }
+    }
 
+    @media (width < 720px) and (height < 450px) {
+      .callout {
+        display: none;
+      }
+    }
 
 ### Continued development
 
@@ -93,4 +94,3 @@ I added a few animations in as well. I don't consider animations a strong suit o
 
 - Github - [github.com/joshdail](https://github.com/joshdail)
 - Frontend Mentor - [@joshdail](https://www.frontendmentor.io/profile/joshdail)
-
