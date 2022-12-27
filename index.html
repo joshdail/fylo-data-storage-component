@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <header>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/joshdail" target="_blank">Josh Dail</a>.
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="section section-menu">
+          <img class="logo" src="images/logo.svg" alt="Fylo" />
+          <menu class="options-menu">
+            <li class="menu-item" tabindex="0">
+              <img
+                class="icon icon-document"
+                src="images/icon-document.svg"
+                alt="Create new document"
+              />
+            </li>
+            <li class="menu-item" tabindex="0">
+              <img
+                class="icon icon-folder"
+                src="images/icon-folder.svg"
+                alt="Create new document"
+              />
+            </li>
+            <li class="menu-item" tabindex="0">
+              <img
+                class="icon icon-folder"
+                src="images/icon-upload.svg"
+                alt="Create new document"
+              />
+            </li>
+          </menu>
+        </section>
+        <section class="section section-meter">
+          <p>
+            You've used <span class="text-strong">815 GB</span> of your storage
+          </p>
+          <div class="meter-bar">
+            <div class="meter-fill">
+              <div class="meter-dot"></div>
+            </div>
+          </div>
+          <div class="meter-label-container">
+            <p class="meter-label text-strong">0 GB</p>
+            <p class="meter-label text-strong">1000 GB</p>
+          </div>
+          <div class="callout">
+            <h2 class="number-bold">185</h2>
+            <p class="callout-text text-strong">GB left</p>
+          </div>
+        </section>
+      </div>
+      <img class="background-png-desktop" src="images/bg-desktop.png" alt="" />
+      <img class="background-png-mobile" src="images/bg-mobile.png" alt="" />
+    </main>
+  </body>
+</html>
