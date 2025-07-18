@@ -1,6 +1,6 @@
 # Frontend Mentor - Fylo data storage component solution
 
-This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n).
 
 ## Table of contents
 
@@ -34,18 +34,6 @@ Users should be able to:
 - Solution URL: [https://github.com/joshdail/fylo-data-storage-component](https://github.com/joshdail/fylo-data-storage-component)
 - Live Site URL: [https://joshdail.github.io/fylo-data-storage-component/](https://joshdail.github.io/fylo-data-storage-component/)
 
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- CSS animations
-- Flexbox
-- Desktop-first workflow
-
-### What I learned
-
 One of the big challenges here was to make the different components of the design display properly on several different screen sizes. I tried to do a decent amount of testing different screen widths and heights to see where different components would break and adjust the design accordingly.
 
 For example, the callout on desktop appears above the meter and on mobile portrait, below the meter. But on mobile landscape, at smaller widths and heights the design would break.
@@ -72,15 +60,8 @@ So if the height shrinks, the callout moves below the gauge, and if the width an
       }
     }
 
-### Continued development
 
-Even though there is not any real user interaction with this component, I wanted to add in a few accessibility features.
-
-For example, even though the icons do not actually have any function, I made them focusable and added hover states.
-
-I also tried to incorporate some semantic HTML. For example, the icons are enclosed in a menu tag to portray an options menu rather than just being enclosed in a div.
-
-I also added a skip link (which would matter more if there was a navbar at the top, but I added it in for practice).
+Even though there is not any real user interaction with this component, I wanted to add in a few accessibility features. For example, even though the icons do not actually have any function, I made them focusable and added hover states. I also tried to incorporate some semantic HTML. For example, the icons are enclosed in a menu tag to portray an options menu rather than just being enclosed in a div. I also added a skip link (which would matter more if there was a navbar at the top, but I added it in for practice).
 
 I added a few animations in as well. I don't consider animations a strong suit of mine by any means, but it was a nice challenge.
 
